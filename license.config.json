@@ -1,0 +1,19 @@
+{
+  "ignore": [ ".*", "*.json", ".idea", ".husky", "config", "yarn.lock", ".editorconfig", "README.md", "node_modules"],
+  "license": "LICENSE",
+  "licenseFormats": {
+    "js|ts": {
+      "prepend": "/*",
+      "append": " */\n",
+      "eachLine": {
+        "prepend": " * "
+      }
+    },
+    "dotfile|^Dockerfile": {
+      "eachLine": {
+        "prepend": "# "
+      }
+    }
+  },
+  "trailingWhitespace": "TRIM"
+}

@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "baseUrl": "src"
+  },
+  "include": [
+    "src/**/*.ts",
+    ".eslintrc.js"
+  ]
+}

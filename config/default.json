@@ -1,0 +1,7 @@
+{
+  "port": 8080,
+  "name": "microservice",
+  "log_level": "debug",
+  "log_output": "stdout",
+  "mongodb_config": "mongodb://localhost:27017/microdb"
+}
